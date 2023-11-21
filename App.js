@@ -5,7 +5,6 @@ function App() {
   const [listItems, setListItems] = useState([]);
 
   useEffect(() => {
-    // Update listItems when input changes
     const updatedListItems = [];
     for (let i = 1; i < 11; i++) {
       updatedListItems.push(
